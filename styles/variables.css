@@ -1,1 +1,24 @@
-/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --page-font: 'Inter-Variable';
+  --accent-font: 'PressStart2P';
+  --weight-title: 700;
+  --weight-text: 400;
+  --background-color: #fff;
+  --accent-color: #000;
+  --background-gradient: repeating-linear-gradient(to left, #d3d3d3, #d3d3d3 2px, rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
+    repeating-linear-gradient( #d3d3d3, #d3d3d3 2px, rgb(211 211 211 / 0) 2px, rgb(211 211 211 / 0) 4px),
+    linear-gradient( #E7E7E7 0.01%, #1A1A1A);
+  --label-shadow: #fff;
+  --button-text: #fff;
+  --heart-contour: #000;
+  --heart-fill: #ff0000;
+  --dialog-backdrop: #000;
+  --footer-floppy: 21px;
+}
+
+@media (width <= 375px) {
+
+  :root {
+    --footer-floppy: 28px;
+  }
+}
