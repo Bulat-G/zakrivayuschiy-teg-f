@@ -13,7 +13,6 @@
   --heart-contour: #000;
   --heart-fill: #ff0000;
   --dialog-backdrop: #000;
-  --footer-floppy: 21px;
 }
 
 :root.theme-dark {
@@ -31,7 +30,6 @@
   --heart-contour: #00CC14;
   --heart-fill: #ff0000;
   --dialog-backdrop: #000;
-  --footer-floppy: 21px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,6 +48,5 @@
     --heart-contour: #00CC14;
     --heart-fill: #ff0000;
     --dialog-backdrop: #000;
-    --footer-floppy: 21px;
   }
 }
